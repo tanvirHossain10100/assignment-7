@@ -1,0 +1,10 @@
+.delBtn {
+  cursor: pointer;
+  background-color: red;
+}
+.noproductsText {
+  transition: 0.5s ease-in;
+}
+.noproductsText:-moz-loading {
+  background-color: orange;
+}

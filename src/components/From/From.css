@@ -1,0 +1,60 @@
+input[type="text"] {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #0b0808;
+  outline: none;
+  max-width: 440px;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: 0.24s all ease-in;
+  margin: 20px 0;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  &:focus {
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: none;
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+}
+.formContainer {
+  margin-top: 20px;
+}
+.fromContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+table {
+  width: 100%;
+}
+.tableBody {
+  width: 40%;
+}
+.formContainerInput {
+  width: 40%;
+}
+.fromContainer {
+  margin-top: 50px;
+}
+button {
+  width: 40%;
+  display: block;
+
+  margin: 20px auto;
+  height: 50px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background-color: rgb(181, 111, 216);
+  transition: 0.2s ease-in;
+}
+button:active {
+  transform: scale(0.7);
+}
+.tableBody,
+.formContainerInput {
+  /* background-color: gray; */
+  background: white;
+  border-radius: 10px;
+  box-shadow: 10px 0 10px 0;
+}
